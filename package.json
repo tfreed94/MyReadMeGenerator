@@ -1,0 +1,25 @@
+{
+  "name": "myreadmegenerator",
+  "version": "1.0.0",
+  "description": "This project is designed around using Node.js to create and generate a README.md file based off user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfreed94/MyReadMeGenerator.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "npm",
+    "inquirer"
+  ],
+  "author": "Troy R Freed Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfreed94/MyReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/tfreed94/MyReadMeGenerator#readme"
+}
