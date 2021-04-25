@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/tfreed94/MyReadMeGenerator/issues"
   },
-  "homepage": "https://github.com/tfreed94/MyReadMeGenerator#readme"
+  "homepage": "https://github.com/tfreed94/MyReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
