@@ -61,7 +61,7 @@ inquirer.prompt([
 
     {
         type: "input",
-        name: "E-mail",
+        name: "Email",
         message: "Add the E-mail you prefer to be contacted with:"
     },
 ])
@@ -72,10 +72,10 @@ inquirer.prompt([
     });
 
 const generatedREADME = userInput => {
-    return ` # ${userInput.title}
+    return ` # ${userInput.Title}
 
 # License: 
-![license](https://img.shields.io/badge/License-${userInput.license}-green.svg)
+![license](https://img.shields.io/badge/License-${userInput.License}-green?.svg)
 
 # Table of Contents 
 1. [Project Description](#description)
@@ -86,21 +86,21 @@ const generatedREADME = userInput => {
 6. [Questions](#questions)
     
 ## Description: 
-${userInput.description}
+${userInput.Description}
 ## Installation: 
-${userInput.installation}
+${userInput.Installation}
 ## Usage: 
-${userInput.usage}
+${userInput.Usage}
 ## License: 
-${userInput.license}
+${userInput.License}
 ## Contribution: 
-${userInput.contribution}
+${userInput.Contribution}
 ## Testing: 
-${userInput.test}
+${userInput.Test}
 
 ## Questions: 
 Any questions, comments, or concerns, please feel free to contact me at:
-* Github: ${userInput.github} (https://github.com/${userInput.github})
-* Email: ${userInput.email}`;
+* Github: ${userInput.Github} (https://github.com/${userInput.Github})
+* Email: ${userInput.Email}`;
 }
 
