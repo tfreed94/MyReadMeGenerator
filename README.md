@@ -1,6 +1,5 @@
  # My README Generator
 
-# License: 
 ![license](https://img.shields.io/badge/License-[MIT]-green?.svg)
 
 # Table of Contents 
