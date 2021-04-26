@@ -65,3 +65,42 @@ inquirer.prompt([
         message: "Add the E-mail you prefer to be contacted with:"
     },
 ])
+    // After user answers questions, a README.md file will be generated with the users answers in the correct sections of the README
+    .then((userInput) => {
+        const createREADME = generatedREADME(userInput);
+        fs.writeFile("README.md", createREADME, (err) => err ? console.log(err) : console.log("README has be successfully created"));
+    });
+
+const generatedREADME = userInput => {
+    return ` # ${userInput.title}
+
+# License: 
+![license](https://img.shields.io/badge/License-${userInput.license}-blue?style=for-the-badge&logo=appveyor.svg)
+
+# Table of Contents 
+1. [Project Description](#description)
+2. [Installation Process](#installation)
+3. [Usage](#usage)
+4. [Contributors](#contribution)
+5. [License Coverage](#license)
+6. [Questions](#questions)
+    
+## Description: 
+${userInput.description}
+## Installation: 
+${userInput.installation}
+## Usage: 
+${userInput.usage}
+## License: 
+${userInput.license}
+## Contribution: 
+${userInput.contribution}
+## Testing: 
+${userInput.test}
+
+## Questions: 
+Any questions, comments, or concerns, please feel free to contact me at:
+* Github: [${userInput.github}](https://github.com/${userInput.github})
+* Email: ${userInput.email}`;
+}
+
