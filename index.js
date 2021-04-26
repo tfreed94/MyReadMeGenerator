@@ -6,7 +6,7 @@ const inquirer = require("inquirer")
 const generatedREADME = userInput => {
     return ` # ${userInput.Title}
 
-# License: 
+
 ![license](https://img.shields.io/badge/License-${userInput.License}-green?.svg)
 
 # Table of Contents 
