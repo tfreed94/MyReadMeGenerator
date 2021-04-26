@@ -75,7 +75,7 @@ const generatedREADME = userInput => {
     return ` # ${userInput.title}
 
 # License: 
-![license](https://img.shields.io/badge/License-${userInput.license}-blue?style=for-the-badge&logo=appveyor.svg)
+![license](https://img.shields.io/badge/License-${userInput.license}-green?
 
 # Table of Contents 
 1. [Project Description](#description)
