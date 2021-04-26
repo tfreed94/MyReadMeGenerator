@@ -32,7 +32,7 @@ ${userInput.Test}
 
 ## Questions: 
 Any questions, comments, or concerns, please feel free to contact me at:
-* Github: ${[userInput.Github]} (https://github.com/${userInput.Github})
+* Github: (https://github.com/${userInput.Github})
 * Email: ${userInput.Email}`;
 }
 // Array of User Questions
@@ -89,7 +89,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "Github",
-        message: "Add your GitHub URL inside of parentheses:"
+        message: "Add your GitHub username:"
     },
 
     {

@@ -1,4 +1,4 @@
- #  My README Generator
+ # My README Generator
 
 
 ![license](https://img.shields.io/badge/License-[MIT](https://opensource.org/licenses/MIT)-green?.svg)
@@ -26,5 +26,5 @@ I created the README for this assignment using my application
 
 ## Questions: 
 Any questions, comments, or concerns, please feel free to contact me at:
-* Github: Tfreed94 (https://github.com/Tfreed94)
+* Github: (https://github.com/Tfreed94) (https://github.com/(https://github.com/Tfreed94))
 * Email: tfreedwebdev94@gmail.com
