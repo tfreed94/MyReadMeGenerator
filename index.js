@@ -89,7 +89,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "Github",
-        message: "Add your GitHub username:"
+        message: "Add your GitHub URL inside of parentheses:"
     },
 
     {
