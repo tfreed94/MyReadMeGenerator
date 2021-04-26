@@ -46,9 +46,9 @@ inquirer.prompt([
         name: "License",
         message: "Which license is your project covered under?",
         choices: [
-            "[GNU](GNULICENSE.txt)",
-            "[ISC](ISCLICENSE.txt)",
-            "[MIT](LICENSE.txt)"
+            "[GNU]",
+            "[ISC]",
+            "[MIT]"
 
         ]
     },
