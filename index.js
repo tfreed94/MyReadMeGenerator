@@ -75,7 +75,7 @@ const generatedREADME = userInput => {
     return ` # ${userInput.title}
 
 # License: 
-![license](https://img.shields.io/badge/License-${userInput.license}-green?
+![license](https://img.shields.io/badge/License-${userInput.license}-green.svg)
 
 # Table of Contents 
 1. [Project Description](#description)
@@ -100,7 +100,7 @@ ${userInput.test}
 
 ## Questions: 
 Any questions, comments, or concerns, please feel free to contact me at:
-* Github: [${userInput.github}](https://github.com/${userInput.github})
+* Github: ${userInput.github} (https://github.com/${userInput.github})
 * Email: ${userInput.email}`;
 }
 
