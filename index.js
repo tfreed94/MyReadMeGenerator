@@ -2,7 +2,7 @@
 const fs = require("fs")
 const inquirer = require("inquirer")
 
-
+// Creating the markdown for the README.md file based off user input
 const generatedREADME = userInput => {
     return ` # ${userInput.Title}
 
@@ -98,9 +98,10 @@ inquirer.prompt([
         message: "Add the E-mail you prefer to be contacted with:"
     },
 ])
-    // After user answers questions, a README.md file will be generated with the users answers in the correct sections of the README
+    // After user answers questions, a README.md file will be generated with the users answers 
     .then((userInput) => {
         const createREADME = generatedREADME(userInput);
+        // Let user know if there is an error or if the README.md was successfully created
         fs.writeFile("README.md", createREADME, (err) => err ? console.log(err) : console.log("README has be successfully created"));
     });
 
