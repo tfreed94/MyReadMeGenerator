@@ -79,9 +79,9 @@ inquirer.prompt([
         name: "License",
         message: "Which license is your project covered under?",
         choices: [
-            "[GNU]",
-            "[ISC]",
-            "[MIT]"
+            "[GNU](https://www.gnu.org/licenses/fdl-1.3.html)",
+            "[ISC](https://opensource.org/licenses/ISC)",
+            "[MIT](https://opensource.org/licenses/MIT)"
 
         ]
     },
