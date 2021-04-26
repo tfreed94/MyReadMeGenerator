@@ -102,6 +102,6 @@ inquirer.prompt([
     .then((userInput) => {
         const createREADME = generatedREADME(userInput);
         // Let user know if there is an error or if the README.md was successfully created
-        fs.writeFile("SampleREADME.md", createREADME, (err) => err ? console.log(err) : console.log("README has be successfully created"));
+        fs.writeFile("README.md", createREADME, (err) => err ? console.log(err) : console.log("README has be successfully created"));
     });
 
