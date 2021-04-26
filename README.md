@@ -18,7 +18,7 @@ Node.js is required to have installed on your machine in order to run this appli
 ## Usage: 
 By typing node index.js you will invoke the application
 ## License: 
-[MIT]
+([MIT]https://github.com/tfreed94/MyReadMeGenerator/blob/main/LICENSE.txt)
 This project is covered under the MIT License
 ## Contribution: 
 This specific project is not open to public contributions at this time
