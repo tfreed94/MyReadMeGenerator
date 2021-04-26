@@ -22,9 +22,9 @@ By typing node index.js you will invoke the application
 ## Contribution: 
 This specific project is not open to public contributions at this time
 ## Testing: 
-I created the README for this assignment using my application
+I created the README for this assignment using my application and created a sample README for submission
 
 ## Questions: 
 Any questions, comments, or concerns, please feel free to contact me at:
-* Github: (https://github.com/Tfreed94) (https://github.com/(https://github.com/Tfreed94))
+* Github: (https://github.com/tfreed94)
 * Email: tfreedwebdev94@gmail.com
