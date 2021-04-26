@@ -13,6 +13,7 @@
     
 ## Description: 
 This project was designed around using Node.js to create a command line application that will generate a good README.md file based on user input
+![](MyReadMeGenerator/assets/images/screenshot.png)
 ## Installation: 
 Node.js is required to have installed on your machine in order to run this application. I needed to run "npm init" and install an inquirer package using the "npm install inquirer" command
 ## Usage: 
