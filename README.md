@@ -16,7 +16,7 @@ This project was designed around using Node.js to create a command line applicat
 ## Installation: 
 Node.js is required to have installed on your machine in order to run this application. I needed to run "npm init" and install an inquirer package using the "npm install inquirer" command
 ## Usage: 
-By typing node index.js
+By typing node index.js you will invoke the application
 ## License: 
 [MIT]
 This project is covered under the MIT License
