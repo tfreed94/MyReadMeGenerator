@@ -31,4 +31,4 @@ Any questions, comments, or concerns, please feel free to contact me at:
 * Email: tfreedwebdev94@gmail.com
 
 ## Link to Walkthrough video
-https://github.com/tfreed94/MyReadMeGenerator/blob/main/README.md
+https://youtu.be/iPG_bxD2psI
