@@ -32,7 +32,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "Contribution",
-        message: "List the names of all people who contributed to this project:"
+        message: "Explain the contribution guidelines for this application:"
     },
 
     {
