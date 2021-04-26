@@ -19,6 +19,7 @@ Node.js is required to have installed on your machine in order to run this appli
 By typing node index.js
 ## License: 
 [MIT]
+This project is covered under the MIT License
 ## Contribution: 
 This specific project is not open to public contributions at this time
 ## Testing: 
