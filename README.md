@@ -29,3 +29,6 @@ I created the README for this assignment using my application
 Any questions, comments, or concerns, please feel free to contact me at:
 * Github: Tfreed94 (https://github.com/Tfreed94)
 * Email: tfreedwebdev94@gmail.com
+
+## Link to Walkthrough video
+https://github.com/tfreed94/MyReadMeGenerator/blob/main/README.md
