@@ -2,6 +2,39 @@
 const fs = require("fs")
 const inquirer = require("inquirer")
 
+
+const generatedREADME = userInput => {
+    return ` # ${userInput.Title}
+
+# License: 
+![license](https://img.shields.io/badge/License-${userInput.License}-green?.svg)
+
+# Table of Contents 
+1. [Project Description](#description)
+2. [Installation Process](#installation)
+3. [Usage](#usage)
+4. [Contributors](#contribution)
+5. [License Coverage](#license)
+6. [Questions](#questions)
+    
+## Description: 
+${userInput.Description}
+## Installation: 
+${userInput.Installation}
+## Usage: 
+${userInput.Usage}
+## License: 
+${userInput.License}
+## Contribution: 
+${userInput.Contribution}
+## Testing: 
+${userInput.Test}
+
+## Questions: 
+Any questions, comments, or concerns, please feel free to contact me at:
+* Github: ${userInput.Github} (https://github.com/${userInput.Github})
+* Email: ${userInput.Email}`;
+}
 // Array of User Questions
 // Using Inquirer to prompt user with questions
 inquirer.prompt([
@@ -70,37 +103,4 @@ inquirer.prompt([
         const createREADME = generatedREADME(userInput);
         fs.writeFile("README.md", createREADME, (err) => err ? console.log(err) : console.log("README has be successfully created"));
     });
-
-const generatedREADME = userInput => {
-    return ` # ${userInput.Title}
-
-# License: 
-![license](https://img.shields.io/badge/License-${userInput.License}-green?.svg)
-
-# Table of Contents 
-1. [Project Description](#description)
-2. [Installation Process](#installation)
-3. [Usage](#usage)
-4. [Contributors](#contribution)
-5. [License Coverage](#license)
-6. [Questions](#questions)
-    
-## Description: 
-${userInput.Description}
-## Installation: 
-${userInput.Installation}
-## Usage: 
-${userInput.Usage}
-## License: 
-${userInput.License}
-## Contribution: 
-${userInput.Contribution}
-## Testing: 
-${userInput.Test}
-
-## Questions: 
-Any questions, comments, or concerns, please feel free to contact me at:
-* Github: ${userInput.Github} (https://github.com/${userInput.Github})
-* Email: ${userInput.Email}`;
-}
 
